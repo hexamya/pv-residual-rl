@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "pv-residual-rl: network-aware rooftop PV subsidy planning with an exact allocation layer and residual reinforcement learning"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/hexamya/pv-residual-rl"
+authors:
+  - family-names: Jafari
+    given-names: Hesam
+    affiliation: "School of Industrial Engineering, Iran University of Science and Technology"
+    orcid: "https://orcid.org/0009-0002-5961-0201"
+  - family-names: Sahebi
+    given-names: Hadi
+    affiliation: "School of Industrial Engineering, Iran University of Science and Technology"
+    orcid: "https://orcid.org/0000-0002-0153-0420"
+keywords:
+  - rooftop photovoltaics
+  - subsidy allocation
+  - distribution networks
+  - undervoltage
+  - voltage regulation
+  - residual reinforcement learning
