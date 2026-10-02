@@ -1,5 +1,7 @@
 # Network-aware rooftop-PV subsidy planning with residual RL
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23106383.svg)](https://doi.org/10.5281/zenodo.23106383)
+
 Multi-year allocation of a rooftop-PV subsidy budget across the 32
 neighbourhoods of an IEEE 33-bus feeder. The decision is made under uncertain
 acceptance, demand growth and irradiance (19 years of PVGIS data for Tehran).
@@ -100,6 +102,17 @@ src/pvplan/
   stats.py        Wilcoxon, Cliff's delta, matched-pairs rank-biserial, bootstrap CIs
   opendss_validate.py  OpenDSS circuit and snapshot solver
 ```
+
+## Citation
+
+The code is archived on Zenodo. To cite the version used in the study (v1.0.0):
+
+> Jafari H, Sahebi H (2026) pv-residual-rl: network-aware rooftop PV subsidy planning with an
+> exact allocation layer and residual reinforcement learning, version 1.0.0. Zenodo.
+> https://doi.org/10.5281/zenodo.23106384
+
+All versions: https://doi.org/10.5281/zenodo.23106383. Citation metadata is also in
+[CITATION.cff](CITATION.cff).
 
 ## License
 
