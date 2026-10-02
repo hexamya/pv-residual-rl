@@ -1,0 +1,78 @@
+{
+  "stiff": {
+    "no_pv_head_peak_kw": 4237.841318315318,
+    "0.25MW": {
+      "far_first_kw": 161.0445996478943,
+      "substation_first_kw": 153.14799223440878,
+      "random_min_kw": 153.7173911947889,
+      "random_max_kw": 159.85201458866777,
+      "spread_kw": 7.896607413485526
+    },
+    "0.5MW": {
+      "far_first_kw": 320.779680591344,
+      "substation_first_kw": 307.10058890585515,
+      "random_min_kw": 311.98897650822073,
+      "random_max_kw": 317.9699105648642,
+      "spread_kw": 13.679091685488856
+    },
+    "0.75MW": {
+      "far_first_kw": 479.57637859251463,
+      "substation_first_kw": 461.96646464908235,
+      "random_min_kw": 466.5746777283912,
+      "random_max_kw": 475.3690604865942,
+      "spread_kw": 17.609913943432275
+    },
+    "1.0MW": {
+      "far_first_kw": 559.3255467750446,
+      "substation_first_kw": 559.5753645158811,
+      "random_min_kw": 559.3251812541025,
+      "random_max_kw": 559.5857864990367,
+      "spread_kw": -0.24981774083653363
+    },
+    "1.4MW": {
+      "far_first_kw": 559.3257227500035,
+      "substation_first_kw": 559.5816144742712,
+      "random_min_kw": 559.3251796269574,
+      "random_max_kw": 559.3255835480477,
+      "spread_kw": -0.25589172426771256
+    }
+  },
+  "weak": {
+    "no_pv_head_peak_kw": 4374.596869621923,
+    "0.25MW": {
+      "far_first_kw": 173.68275544288463,
+      "substation_first_kw": 155.25670836118206,
+      "random_min_kw": 158.38377761292122,
+      "random_max_kw": 173.4545942851346,
+      "spread_kw": 18.426047081702563
+    },
+    "0.5MW": {
+      "far_first_kw": 344.1455260262833,
+      "substation_first_kw": 312.22429687954536,
+      "random_min_kw": 315.49415496345046,
+      "random_max_kw": 338.8341073137717,
+      "spread_kw": 31.921229146737915
+    },
+    "0.75MW": {
+      "far_first_kw": 512.3357253583263,
+      "substation_first_kw": 471.3537209838646,
+      "random_min_kw": 481.2123569723881,
+      "random_max_kw": 501.10157105027156,
+      "spread_kw": 40.98200437446167
+    },
+    "1.0MW": {
+      "far_first_kw": 595.7154540051947,
+      "substation_first_kw": 595.7063095519657,
+      "random_min_kw": 595.709095795662,
+      "random_max_kw": 595.7123332897213,
+      "spread_kw": 0.009144453229055216
+    },
+    "1.4MW": {
+      "far_first_kw": 595.717117758601,
+      "substation_first_kw": 595.7090736251084,
+      "random_min_kw": 595.7111324011235,
+      "random_max_kw": 595.7158794847546,
+      "spread_kw": 0.008044133492603578
+    }
+  }
+}

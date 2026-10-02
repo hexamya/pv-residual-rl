@@ -1,0 +1,47 @@
+{
+  "system_peak_hour": 13,
+  "system_peak_mw": 3.643,
+  "evening_ridge_ratio": 0.8713,
+  "v_min_nominal_pu": 0.9612,
+  "total_potential_mw": 2.246,
+  "cf_at_zero": {
+    "residential": 0.0,
+    "mixed": 0.123,
+    "commercial": 0.489,
+    "admin": 0.573
+  },
+  "cf_at_full": {
+    "residential": 0.0,
+    "mixed": 0.0,
+    "commercial": 0.0,
+    "admin": 0.409
+  },
+  "max_system_dpeak_pct_uniform": 12.87,
+  "env_steps_per_sec": 1675,
+  "random_policy_last_info": {
+    "reward": 0.1162,
+    "dpeak_frac": 0.1162,
+    "dpeak_mw": 0.516,
+    "peak_gross_mw": 4.4425,
+    "peak_net_mw": 3.9264,
+    "overload_frac": 0.0,
+    "overload_delta": 0.0,
+    "volt_violation_frac": 0.0,
+    "volt_delta": 0.0,
+    "reverse_flow_mw": 0.0,
+    "offered_mw": 0.2408,
+    "realized_mw": 0.1081,
+    "installed_total_mw": 1.0905,
+    "acceptance_mean": 0.5524,
+    "growth": 0.0139
+  },
+  "tranche_env_ok": true,
+  "opendss_validation": {
+    "n_samples": 200,
+    "v_err_max_pu": 0.00197,
+    "v_err_mean_pu": 0.00075,
+    "v_err_p95_pu": 0.00157,
+    "head_err_mean_pct": 1.99914,
+    "head_err_p95_pct": 2.82114
+  }
+}

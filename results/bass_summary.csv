@@ -1,0 +1,6 @@
+policy,return_mean,dpeak_final_pct,installed_mw
+ppo-bass,0.8616,12.1784,1.1523
+ppo-nominal-in-bass,0.8376,12.0677,1.1834
+rolling-lp,0.8078,11.6506,0.9756
+peak-first,0.7582,12.1112,1.1633
+random,0.7078,11.7752,1.0069

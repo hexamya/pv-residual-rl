@@ -1,0 +1,27 @@
+{
+  "total_0.5MW": {
+    "dpeak_frac_range": 3.608224830031759e-16,
+    "volt_delta_range": 0.0,
+    "overload_delta_range": 0.0,
+    "dpeak_frac_mean": 0.08105265573593196
+  },
+  "total_1.0MW": {
+    "dpeak_frac_range": 0.0,
+    "volt_delta_range": 0.0,
+    "overload_delta_range": 0.0,
+    "dpeak_frac_mean": 0.1269189417697376
+  },
+  "total_1.4MW": {
+    "dpeak_frac_range": 0.0,
+    "volt_delta_range": 0.0,
+    "overload_delta_range": 0.0,
+    "dpeak_frac_mean": 0.1269189417697376
+  },
+  "stored_runs": {
+    "n_runs_per_scenario": 21,
+    "spearman_median": 0.9023778112773574,
+    "spearman_min": 0.7977240352174656,
+    "ordered_pairs": 21000,
+    "pairs_more_MW_but_less_reduction": 0
+  }
+}

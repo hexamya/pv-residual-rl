@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pv-residual-rl"
+version = "0.2.0"
+description = "Network-aware rooftop-PV subsidy planning: acceptance-aware allocation and residual PPO on an IEEE 33-bus feeder"
+authors = [{ name = "Hesam Jafari" }, { name = "Hadi Sahebi" }]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "scipy",
+    "pandas",
+    "matplotlib",
+    "gymnasium",
+    "stable-baselines3>=2.4",
+    "scikit-learn",
+    "shap",
+    "tqdm",
+    "requests",
+]
+
+[project.optional-dependencies]
+validation = ["opendssdirect.py"]   # scripts/03_validate_env.py (OpenDSS cross-check)
+
+[tool.setuptools.packages.find]
+where = ["src"]

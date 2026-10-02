@@ -1,0 +1,9 @@
+{
+  "bess_share=0.2": 0.5,
+  "bess_share=0.3": 0.5,
+  "growth_mean=0.04": 0.5,
+  "horizon_years=5": 0.25,
+  "annual_budget_mw=0.125": 0.25,
+  "annual_budget_mw=0.375": 1.0,
+  "bass": 0.0
+}

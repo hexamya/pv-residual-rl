@@ -1,0 +1,9 @@
+policy,reference,metric,diff,ci_lo,ci_hi
+residual,max-exp-cap-V,peak_kw_mean_annual,-0.3212645109725332,-0.8686590356113734,0.2367250116498755
+residual,max-exp-cap-V,uv_bus_hours_relieved_per_summer,117.78575999999995,102.89440999999997,132.875692
+residual,rolling-lp-V,peak_kw_mean_annual,5.049994516360628,3.4595766902008176,6.685915036969923
+residual,rolling-lp-V,uv_bus_hours_relieved_per_summer,258.95975999999996,238.41358400000007,279.13618799999995
+residual,ppo,peak_kw_mean_annual,4.726019811082132,3.5014262896590806,5.920033565492794
+residual,ppo,uv_bus_hours_relieved_per_summer,119.88152,104.65887799999997,135.19961200000003
+max-exp-cap-V,max-exp-cap,peak_kw_mean_annual,-3.9366657583742266,-5.277469072270507,-2.5766881228032505
+max-exp-cap-V,max-exp-cap,uv_bus_hours_relieved_per_summer,408.32360000000006,391.45930999999996,425.4818300000002

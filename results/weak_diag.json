@@ -1,0 +1,95 @@
+{
+  "year0_no_pv": {
+    "vmin_pu": 0.9224865911848426,
+    "share_bus_hours_below_0.95": 0.27734375,
+    "violating_hours": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "buses_violating_at_13h": 18
+  },
+  "year5_no_pv": {
+    "vmin_pu": 0.9123006926573823,
+    "share_bus_hours_below_0.95": 0.33984375,
+    "violating_hours": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "buses_violating_at_13h": 21
+  },
+  "year10_no_pv": {
+    "vmin_pu": 0.9007762834077434,
+    "share_bus_hours_below_0.95": 0.3984375,
+    "violating_hours": [
+      0,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "buses_violating_at_13h": 21
+  },
+  "placement_0.5MW": {
+    "peak_term_range_random": 3.0531133177191805e-16,
+    "volt_term_random_min": 0.0022135416666666796,
+    "volt_term_random_max": 0.013346354166666685,
+    "volt_term_far_end_first": 0.014388020833333348,
+    "volt_term_substation_first": 0.0011718750000000167,
+    "peak_term": 0.07163873729434167
+  },
+  "placement_1.0MW": {
+    "peak_term_range_random": 0.0,
+    "volt_term_random_min": 0.01100260416666668,
+    "volt_term_random_max": 0.025130208333333348,
+    "volt_term_far_end_first": 0.029687500000000006,
+    "volt_term_substation_first": 0.0062500000000000056,
+    "peak_term": 0.12691894176973748
+  },
+  "placement_1.4MW": {
+    "peak_term_range_random": 0.0,
+    "volt_term_random_min": 0.018750000000000017,
+    "volt_term_random_max": 0.03144531250000002,
+    "volt_term_far_end_first": 0.0341796875,
+    "volt_term_substation_first": 0.015104166666666669,
+    "peak_term": 0.12691894176973748
+  }
+}

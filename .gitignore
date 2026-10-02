@@ -1,0 +1,20 @@
+# Environments
+.venv/
+venv/
+
+# Python build artefacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Console logs of long training/evaluation runs
+*.log
+
+# Office lock and temporary files
+~$*
+*.tmp
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store

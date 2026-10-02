@@ -1,0 +1,28 @@
+{
+  "stiff": {
+    "n_samples": 200,
+    "impedance_scale": 0.5,
+    "v_err_max_pu": 0.0021328930682119607,
+    "v_err_mean_pu": 0.0007453130040332956,
+    "v_err_p95_pu": 0.0015621456679831998,
+    "v_bias_mean_pu": 0.0004661615879705442,
+    "head_err_mean_pct": 2.0077506557271034,
+    "head_err_p95_pct": 2.9278761611170743,
+    "below_vmin_share_dss": 0.0,
+    "below_vmin_share_lin": 0.0,
+    "below_vmin_misclassified": 0.0
+  },
+  "weak": {
+    "n_samples": 200,
+    "impedance_scale": 1.0,
+    "v_err_max_pu": 0.00876043786907188,
+    "v_err_mean_pu": 0.002800369059742719,
+    "v_err_p95_pu": 0.00623388312094219,
+    "v_bias_mean_pu": 0.0016136698605354256,
+    "head_err_mean_pct": 4.116188342464409,
+    "head_err_p95_pct": 5.966173833362451,
+    "below_vmin_share_dss": 0.201875,
+    "below_vmin_share_lin": 0.17125,
+    "below_vmin_misclassified": 0.030625
+  }
+}
