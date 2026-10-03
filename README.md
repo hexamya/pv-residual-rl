@@ -117,9 +117,9 @@ The code is archived on Zenodo. To cite all versions, use the concept DOI:
 > exact allocation layer and residual reinforcement learning [software]. Zenodo; 2026.
 > https://doi.org/10.5281/zenodo.23106383
 
-Each version also has its own DOI on the Zenodo record (v1.0.0:
-https://doi.org/10.5281/zenodo.23106384). Version 1.1.0 adds the energy, emission
-and budget-efficiency accounting (`37_energy_emissions.py`, D32). Citation metadata
+Each version also has its own DOI: v1.0.0 https://doi.org/10.5281/zenodo.23106384;
+v1.1.0 https://doi.org/10.5281/zenodo.23124244, which adds the energy, emission and
+budget-efficiency accounting (`37_energy_emissions.py`, D32). Citation metadata
 is also in [CITATION.cff](CITATION.cff).
 
 ## License
