@@ -1,7 +1,7 @@
 {
   "title": "pv-residual-rl: network-aware rooftop PV subsidy planning with an exact allocation layer and residual reinforcement learning",
   "upload_type": "software",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "creators": [
     {
@@ -15,7 +15,7 @@
       "orcid": "0000-0002-0153-0420"
     }
   ],
-  "description": "<p>Simulator, baselines, experiment scripts, per-scenario results and trained models for the multi-year allocation of a rooftop-PV subsidy budget across the 32 neighbourhoods of an IEEE 33-bus feeder under uncertain acceptance, demand growth and irradiance (19 years of PVGIS data for Tehran).</p><p>The package contains the LinDistFlow planning environment with an optional substation tap changer, an exact expected-capacity allocation layer, rule-based, rolling-horizon and lookahead baselines, plain and residual PPO agents, the paired evaluation protocol, OpenDSS re-evaluation scripts and a wait-and-see bound. All results in the repository are reproduced by the scripts in <code>scripts/</code>; see <code>README.md</code> and <code>docs/decisions.md</code>.</p>",
+  "description": "<p>Simulator, baselines, experiment scripts, per-scenario results and trained models for the multi-year allocation of a rooftop-PV subsidy budget across the 32 neighbourhoods of an IEEE 33-bus feeder under uncertain acceptance, demand growth and irradiance (19 years of PVGIS data for Tehran).</p><p>The package contains the LinDistFlow planning environment with an optional substation tap changer, an exact expected-capacity allocation layer, rule-based, rolling-horizon and lookahead baselines, plain and residual PPO agents, the paired evaluation protocol, OpenDSS re-evaluation scripts, a wait-and-see bound and the energy, emission and budget-efficiency accounting of the main policies. All results in the repository are reproduced by the scripts in <code>scripts/</code>; see <code>README.md</code> and <code>docs/decisions.md</code>.</p>",
   "keywords": [
     "rooftop photovoltaics",
     "subsidy allocation",

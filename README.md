@@ -14,7 +14,7 @@ an analytic allocation rule.
 
 ## Main findings
 
-Full numbers are in [docs/decisions.md](docs/decisions.md), D18-D31.
+Full numbers are in [docs/decisions.md](docs/decisions.md), D18-D32.
 
 1. **Without line losses, the feeder-peak objective does not depend on where
    PV is installed.** Irradiance is common to all buses, so the peak term
@@ -37,6 +37,11 @@ Full numbers are in [docs/decisions.md](docs/decisions.md), D18-D31.
 4. **The rules need a roughly correct ranking of acceptance.** A class-ranking
    error costs the exact rule 0.125 on the stiff feeder; updating the class
    means from observed uptake (`AdaptiveCapacityPolicy`) removes the problem.
+5. **Network support costs energy.** Over the ten-year programme the
+   `max-exp-cap` rule delivers 0.71 GWh more PV energy than PPO (404 t CO2
+   avoided at 0.57 t/MWh) and 2.45 GWh more than the rolling LP on the stiff
+   feeder. On the weak feeder, voltage weighting gives up 0.20 GWh and the
+   residual agent a further 0.40 GWh for their extra undervoltage relief.
 
 ## Setup
 
@@ -76,6 +81,7 @@ python -m venv .venv
 | `34_opendss_oltc_check.py` | OpenDSS replay with the OLTC | `results/opendss_oltc*` |
 | `35_lookahead_bound.py` | rollout lookahead rule and wait-and-see bound | `results/rollout_*`, `results/bound_*`, `results/lookahead_*` |
 | `36_voltage_metrics.py` | undervoltage deficit, thresholds, tap operations, timing | `results/vmetric_*`, `results/uv_timing.json`, `results/oltc_overvoltage.json` |
+| `37_energy_emissions.py` | PV energy, avoided CO2 and installed capacity per MW offered (replay of the test episodes) | `results/energy_*` |
 
 All policies are evaluated on the same seeded scenarios (common random numbers):
 - stiff and weak test sets: 10000-10099
@@ -105,14 +111,16 @@ src/pvplan/
 
 ## Citation
 
-The code is archived on Zenodo. To cite the version used in the study (v1.0.0):
+The code is archived on Zenodo. To cite all versions, use the concept DOI:
 
-> Jafari H, Sahebi H (2026) pv-residual-rl: network-aware rooftop PV subsidy planning with an
-> exact allocation layer and residual reinforcement learning, version 1.0.0. Zenodo.
-> https://doi.org/10.5281/zenodo.23106384
+> Jafari H, Sahebi H. pv-residual-rl: network-aware rooftop PV subsidy planning with an
+> exact allocation layer and residual reinforcement learning [software]. Zenodo; 2026.
+> https://doi.org/10.5281/zenodo.23106383
 
-All versions: https://doi.org/10.5281/zenodo.23106383. Citation metadata is also in
-[CITATION.cff](CITATION.cff).
+Each version also has its own DOI on the Zenodo record (v1.0.0:
+https://doi.org/10.5281/zenodo.23106384). Version 1.1.0 adds the energy, emission
+and budget-efficiency accounting (`37_energy_emissions.py`, D32). Citation metadata
+is also in [CITATION.cff](CITATION.cff).
 
 ## License
 

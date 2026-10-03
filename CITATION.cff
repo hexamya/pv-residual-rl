@@ -1,9 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "pv-residual-rl: network-aware rooftop PV subsidy planning with an exact allocation layer and residual reinforcement learning"
-version: 1.0.0
+version: 1.1.0
 doi: 10.5281/zenodo.23106383
-date-released: 2026-10-02
+date-released: 2026-10-03
 license: MIT
 repository-code: "https://github.com/hexamya/pv-residual-rl"
 authors:

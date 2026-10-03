@@ -1,0 +1,760 @@
+{
+ "yield_kwh_per_kwp": 1556.6508873684215,
+ "yield_sd_kwh_per_kwp": 32.7580477362018,
+ "yield_years": 19,
+ "ef_t_per_mwh": 0.57,
+ "n_scenarios": 100,
+ "rpf_max_mw_any": 0.0,
+ "means": {
+  "stiff|accept-greedy": {
+   "installed_final_mw": 1.4230927872323391,
+   "energy_programme_gwh": 13.015646698473706,
+   "energy_final_year_mwh": 2215.258650052821,
+   "co2_programme_t": 7418.918618130011,
+   "budget_efficiency": 0.5692371149498594,
+   "energy_per_mw_offered_mwh": 5206.258679910108,
+   "offered_total_mw": 2.49999999975,
+   "rpf_max_mw": 0.0,
+   "installed_y1_mw": 0.1689177321302899,
+   "installed_y2_mw": 0.3354005096277157,
+   "installed_y3_mw": 0.49958714039220853,
+   "installed_y4_mw": 0.6595959644964001,
+   "installed_y5_mw": 0.8018573054808712,
+   "installed_y6_mw": 0.9319526780994007,
+   "installed_y7_mw": 1.0557987503919168,
+   "installed_y8_mw": 1.1801184728528404,
+   "installed_y9_mw": 1.3049925570301193,
+   "installed_y10_mw": 1.4230927872323391
+  },
+  "stiff|max-exp-cap": {
+   "installed_final_mw": 1.5018635914693974,
+   "energy_programme_gwh": 13.711536303341694,
+   "energy_final_year_mwh": 2337.877292367162,
+   "co2_programme_t": 7815.575692904764,
+   "budget_efficiency": 0.6007454366478335,
+   "energy_per_mw_offered_mwh": 5484.614521885138,
+   "offered_total_mw": 2.49999999975,
+   "rpf_max_mw": 0.0,
+   "installed_y1_mw": 0.17489976657081513,
+   "installed_y2_mw": 0.35022970096185607,
+   "installed_y3_mw": 0.5249423144205135,
+   "installed_y4_mw": 0.6915787602523398,
+   "installed_y5_mw": 0.8369506333381499,
+   "installed_y6_mw": 0.9773741711646832,
+   "installed_y7_mw": 1.1157817077823708,
+   "installed_y8_mw": 1.251802795165631,
+   "installed_y9_mw": 1.3829332781650883,
+   "installed_y10_mw": 1.5018635914693974
+  },
+  "stiff|peak-first": {
+   "installed_final_mw": 1.423253946720705,
+   "energy_programme_gwh": 12.493041263496382,
+   "energy_final_year_mwh": 2215.5095191133937,
+   "co2_programme_t": 7121.033520192937,
+   "budget_efficiency": 0.5693015787452121,
+   "energy_per_mw_offered_mwh": 4997.216505898274,
+   "offered_total_mw": 2.49999999975,
+   "rpf_max_mw": 0.0,
+   "installed_y1_mw": 0.14823173157768862,
+   "installed_y2_mw": 0.2958837182649987,
+   "installed_y3_mw": 0.44167481212484605,
+   "installed_y4_mw": 0.5896090022355813,
+   "installed_y5_mw": 0.735389578237394,
+   "installed_y6_mw": 0.8822434799328037,
+   "installed_y7_mw": 1.0288731376090134,
+   "installed_y8_mw": 1.1732331558538176,
+   "installed_y9_mw": 1.3071970959030204,
+   "installed_y10_mw": 1.423253946720705
+  },
+  "stiff|ppo": {
+   "installed_final_mw": 1.4025709797605368,
+   "energy_programme_gwh": 13.002437727889216,
+   "energy_final_year_mwh": 2183.313360241436,
+   "co2_programme_t": 7411.3895048968525,
+   "budget_efficiency": 0.5628406303151542,
+   "energy_per_mw_offered_mwh": 5217.792147742917,
+   "offered_total_mw": 2.491946896161356,
+   "rpf_max_mw": 0.0,
+   "installed_y1_mw": 0.17269224453486437,
+   "installed_y2_mw": 0.3454436312572251,
+   "installed_y3_mw": 0.504826745800141,
+   "installed_y4_mw": 0.6529672543621465,
+   "installed_y5_mw": 0.7929433344757183,
+   "installed_y6_mw": 0.9303925286379169,
+   "installed_y7_mw": 1.0637356536881208,
+   "installed_y8_mw": 1.1874078467860263,
+   "installed_y9_mw": 1.2998481723415864,
+   "installed_y10_mw": 1.4025709797605368
+  },
+  "stiff|rolling-lp": {
+   "installed_final_mw": 0.995963750017321,
+   "energy_programme_gwh": 11.266054972800855,
+   "energy_final_year_mwh": 1550.3678552512436,
+   "co2_programme_t": 6421.651334496488,
+   "budget_efficiency": 0.6148216012673225,
+   "energy_per_mw_offered_mwh": 6963.326968199104,
+   "offered_total_mw": 1.623240323842224,
+   "rpf_max_mw": 0.0,
+   "installed_y1_mw": 0.1689177321302899,
+   "installed_y2_mw": 0.3310725209672352,
+   "installed_y3_mw": 0.5015425934486882,
+   "installed_y4_mw": 0.658456246389122,
+   "installed_y5_mw": 0.8013317317694694,
+   "installed_y6_mw": 0.8949296438640224,
+   "installed_y7_mw": 0.9348929894544815,
+   "installed_y8_mw": 0.9674990205344618,
+   "installed_y9_mw": 0.9827615487603633,
+   "installed_y10_mw": 0.995963750017321
+  },
+  "weak|hybrid": {
+   "installed_final_mw": 1.3972211209513374,
+   "energy_programme_gwh": 12.997939342524978,
+   "energy_final_year_mwh": 2174.9854977788,
+   "co2_programme_t": 7408.825425239238,
+   "budget_efficiency": 0.5588884484364238,
+   "energy_per_mw_offered_mwh": 5199.1757375299085,
+   "offered_total_mw": 2.49999999975,
+   "rpf_max_mw": 0.0,
+   "installed_y1_mw": 0.17503550834103468,
+   "installed_y2_mw": 0.34996027116827827,
+   "installed_y3_mw": 0.5164372793089653,
+   "installed_y4_mw": 0.6649988186270863,
+   "installed_y5_mw": 0.8023955336994125,
+   "installed_y6_mw": 0.9346452129026497,
+   "installed_y7_mw": 1.053424685013322,
+   "installed_y8_mw": 1.1713074844834361,
+   "installed_y9_mw": 1.2845126928042156,
+   "installed_y10_mw": 1.3972211209513374
+  },
+  "weak|max-exp-cap": {
+   "installed_final_mw": 1.5018635914693974,
+   "energy_programme_gwh": 13.711536303341694,
+   "energy_final_year_mwh": 2337.877292367162,
+   "co2_programme_t": 7815.575692904764,
+   "budget_efficiency": 0.6007454366478335,
+   "energy_per_mw_offered_mwh": 5484.614521885138,
+   "offered_total_mw": 2.49999999975,
+   "rpf_max_mw": 0.0,
+   "installed_y1_mw": 0.17489976657081513,
+   "installed_y2_mw": 0.35022970096185607,
+   "installed_y3_mw": 0.5249423144205135,
+   "installed_y4_mw": 0.6915787602523398,
+   "installed_y5_mw": 0.8369506333381499,
+   "installed_y6_mw": 0.9773741711646832,
+   "installed_y7_mw": 1.1157817077823708,
+   "installed_y8_mw": 1.251802795165631,
+   "installed_y9_mw": 1.3829332781650883,
+   "installed_y10_mw": 1.5018635914693974
+  },
+  "weak|max-exp-cap-V": {
+   "installed_final_mw": 1.4768166134382126,
+   "energy_programme_gwh": 13.50969125008268,
+   "energy_final_year_mwh": 2298.8878917890206,
+   "co2_programme_t": 7700.524012547128,
+   "budget_efficiency": 0.5907266454343577,
+   "energy_per_mw_offered_mwh": 5403.876500573459,
+   "offered_total_mw": 2.49999999975,
+   "rpf_max_mw": 0.0,
+   "installed_y1_mw": 0.16978168702226107,
+   "installed_y2_mw": 0.33155327453454186,
+   "installed_y3_mw": 0.5030413334529777,
+   "installed_y4_mw": 0.6763317776895853,
+   "installed_y5_mw": 0.8311209869459987,
+   "installed_y6_mw": 0.9783677563610812,
+   "installed_y7_mw": 1.112310453694584,
+   "installed_y8_mw": 1.2394747153309071,
+   "installed_y9_mw": 1.3598918900062593,
+   "installed_y10_mw": 1.4768166134382126
+  },
+  "weak|ppo": {
+   "installed_final_mw": 1.3900859694119632,
+   "energy_programme_gwh": 12.761256267136527,
+   "energy_final_year_mwh": 2163.878557803525,
+   "co2_programme_t": 7273.91607226782,
+   "budget_efficiency": 0.5566773514223557,
+   "energy_per_mw_offered_mwh": 5110.40493155477,
+   "offered_total_mw": 2.497114595891255,
+   "rpf_max_mw": 0.0,
+   "installed_y1_mw": 0.1722881645796943,
+   "installed_y2_mw": 0.34305092956392175,
+   "installed_y3_mw": 0.5017296666012604,
+   "installed_y4_mw": 0.6434463698511691,
+   "installed_y5_mw": 0.7760013731655286,
+   "installed_y6_mw": 0.9053977813955687,
+   "installed_y7_mw": 1.0322498319292437,
+   "installed_y8_mw": 1.1570412330917887,
+   "installed_y9_mw": 1.2766009443007877,
+   "installed_y10_mw": 1.3900859694119632
+  },
+  "weak|residual": {
+   "installed_final_mw": 1.4139575187775089,
+   "energy_programme_gwh": 13.1145849402583,
+   "energy_final_year_mwh": 2201.0382263062606,
+   "co2_programme_t": 7475.313415947232,
+   "budget_efficiency": 0.5655830075675619,
+   "energy_per_mw_offered_mwh": 5245.833976627904,
+   "offered_total_mw": 2.49999999975,
+   "rpf_max_mw": 0.0,
+   "installed_y1_mw": 0.1696674148107253,
+   "installed_y2_mw": 0.34065082325908796,
+   "installed_y3_mw": 0.513800742187881,
+   "installed_y4_mw": 0.6741049073959023,
+   "installed_y5_mw": 0.8128644529038971,
+   "installed_y6_mw": 0.946340056840685,
+   "installed_y7_mw": 1.0670562608952754,
+   "installed_y8_mw": 1.1863810962253893,
+   "installed_y9_mw": 1.300049025738542,
+   "installed_y10_mw": 1.4139575187775089
+  },
+  "weak|rolling-lp-V": {
+   "installed_final_mw": 1.3167659070087199,
+   "energy_programme_gwh": 12.439945914273158,
+   "energy_final_year_mwh": 2049.7448176016082,
+   "co2_programme_t": 7090.769171135699,
+   "budget_efficiency": 0.5267063633301932,
+   "energy_per_mw_offered_mwh": 4975.97837068523,
+   "offered_total_mw": 2.4999999975000056,
+   "rpf_max_mw": 0.0,
+   "installed_y1_mw": 0.16719544073681344,
+   "installed_y2_mw": 0.33473453083867105,
+   "installed_y3_mw": 0.5012330438738892,
+   "installed_y4_mw": 0.6543093702537827,
+   "installed_y5_mw": 0.7882981856786964,
+   "installed_y6_mw": 0.9007732047586836,
+   "installed_y7_mw": 1.0050054133320647,
+   "installed_y8_mw": 1.1103985262125713,
+   "installed_y9_mw": 1.2127673286344853,
+   "installed_y10_mw": 1.3167659070087199
+  }
+ },
+ "pairs": {
+  "stiff|max-exp-cap|ppo|installed_final_mw": {
+   "diff": 0.09929261170886061,
+   "ci_lo": 0.094845097890372,
+   "ci_hi": 0.10376122471368664,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|ppo|energy_programme_gwh": {
+   "diff": 0.7090985754524743,
+   "ci_lo": 0.6668416827488757,
+   "ci_hi": 0.7520965766223892,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|ppo|energy_final_year_mwh": {
+   "diff": 154.563932125726,
+   "ci_lo": 147.6407057935924,
+   "ci_hi": 161.52000252499454,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|ppo|co2_programme_t": {
+   "diff": 404.1861880079104,
+   "ci_lo": 380.0997591668592,
+   "ci_hi": 428.69504867476184,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|ppo|budget_efficiency": {
+   "diff": 0.037904806332679314,
+   "ci_lo": 0.0361266936697906,
+   "ci_hi": 0.039688318534429494,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|ppo|energy_per_mw_offered_mwh": {
+   "diff": 266.8223741422211,
+   "ci_lo": 249.89246966597358,
+   "ci_hi": 284.1188235702071,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|rolling-lp|installed_final_mw": {
+   "diff": 0.5058998414520764,
+   "ci_lo": 0.4984963323128583,
+   "ci_hi": 0.5132285663256512,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|rolling-lp|energy_programme_gwh": {
+   "diff": 2.445481330540836,
+   "ci_lo": 2.3777878961837438,
+   "ci_hi": 2.5106052774610803,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|rolling-lp|energy_final_year_mwh": {
+   "diff": 787.5094371159184,
+   "ci_lo": 775.9847580447145,
+   "ci_hi": 798.9177031936478,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|rolling-lp|co2_programme_t": {
+   "diff": 1393.9243584082762,
+   "ci_lo": 1355.3391008247336,
+   "ci_hi": 1431.0450081528156,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|rolling-lp|budget_efficiency": {
+   "diff": -0.014076164619489032,
+   "ci_lo": -0.018960618309656226,
+   "ci_hi": -0.00905635125821286,
+   "wilcoxon_p": 1.5338204689520703e-06,
+   "wins": 26,
+   "rrb": -0.5536633663366337
+  },
+  "stiff|max-exp-cap|rolling-lp|energy_per_mw_offered_mwh": {
+   "diff": -1478.7124463139667,
+   "ci_lo": -1559.3652797201128,
+   "ci_hi": -1397.2617828143302,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 0,
+   "rrb": -1.0
+  },
+  "stiff|ppo|rolling-lp|installed_final_mw": {
+   "diff": 0.4066072297432158,
+   "ci_lo": 0.3999676116677241,
+   "ci_hi": 0.4131326040333539,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|ppo|rolling-lp|energy_programme_gwh": {
+   "diff": 1.7363827550883615,
+   "ci_lo": 1.6667401950722973,
+   "ci_hi": 1.8054252732815341,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|ppo|rolling-lp|energy_final_year_mwh": {
+   "diff": 632.9455049901926,
+   "ci_lo": 622.609937621191,
+   "ci_hi": 643.103234669347,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|ppo|rolling-lp|co2_programme_t": {
+   "diff": 989.738170400366,
+   "ci_lo": 950.0419111912097,
+   "ci_hi": 1029.092405770474,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|ppo|rolling-lp|budget_efficiency": {
+   "diff": -0.05198097095216833,
+   "ci_lo": -0.0570564329076519,
+   "ci_hi": -0.046754213327244644,
+   "wilcoxon_p": 6.702409068617996e-18,
+   "wins": 3,
+   "rrb": -0.9928712871287129
+  },
+  "stiff|ppo|rolling-lp|energy_per_mw_offered_mwh": {
+   "diff": -1745.5348204561878,
+   "ci_lo": -1829.3402981033128,
+   "ci_hi": -1660.5725619058787,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 0,
+   "rrb": -1.0
+  },
+  "stiff|max-exp-cap|accept-greedy|installed_final_mw": {
+   "diff": 0.07877080423705833,
+   "ci_lo": 0.0703388955003724,
+   "ci_hi": 0.08738863014354357,
+   "wilcoxon_p": 6.12472726248735e-18,
+   "wins": 97,
+   "rrb": 0.994059405940594
+  },
+  "stiff|max-exp-cap|accept-greedy|energy_programme_gwh": {
+   "diff": 0.695889604867987,
+   "ci_lo": 0.605179144677472,
+   "ci_hi": 0.7900814607125182,
+   "wilcoxon_p": 1.0104199612316775e-16,
+   "wins": 95,
+   "rrb": 0.9564356435643564
+  },
+  "stiff|max-exp-cap|accept-greedy|energy_final_year_mwh": {
+   "diff": 122.61864231434109,
+   "ci_lo": 109.49310409716932,
+   "ci_hi": 136.0335886588579,
+   "wilcoxon_p": 6.12472726248735e-18,
+   "wins": 97,
+   "rrb": 0.994059405940594
+  },
+  "stiff|max-exp-cap|accept-greedy|co2_programme_t": {
+   "diff": 396.6570747747524,
+   "ci_lo": 344.95211246615895,
+   "ci_hi": 450.34643260613535,
+   "wilcoxon_p": 1.0104199612316775e-16,
+   "wins": 95,
+   "rrb": 0.9564356435643564
+  },
+  "stiff|max-exp-cap|accept-greedy|budget_efficiency": {
+   "diff": 0.03150832169797415,
+   "ci_lo": 0.028135558202962492,
+   "ci_hi": 0.03495545206091296,
+   "wilcoxon_p": 6.12472726248735e-18,
+   "wins": 97,
+   "rrb": 0.994059405940594
+  },
+  "stiff|max-exp-cap|accept-greedy|energy_per_mw_offered_mwh": {
+   "diff": 278.35584197503033,
+   "ci_lo": 242.071657895196,
+   "ci_hi": 316.03258431661055,
+   "wilcoxon_p": 1.0104199612316775e-16,
+   "wins": 95,
+   "rrb": 0.9564356435643564
+  },
+  "stiff|max-exp-cap|peak-first|installed_final_mw": {
+   "diff": 0.07860964474869245,
+   "ci_lo": 0.07362905622750401,
+   "ci_hi": 0.0835525915442833,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|peak-first|energy_programme_gwh": {
+   "diff": 1.2184950398453105,
+   "ci_lo": 1.1629666512003742,
+   "ci_hi": 1.272958716813973,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|peak-first|energy_final_year_mwh": {
+   "diff": 122.36777325376846,
+   "ci_lo": 114.61473571264354,
+   "ci_hi": 130.06221576933984,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|peak-first|co2_programme_t": {
+   "diff": 694.542172711827,
+   "ci_lo": 662.8909911842131,
+   "ci_hi": 725.5864685839645,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|peak-first|budget_efficiency": {
+   "diff": 0.03144385790262136,
+   "ci_lo": 0.029451622493946755,
+   "ci_hi": 0.033421036621055424,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "stiff|max-exp-cap|peak-first|energy_per_mw_offered_mwh": {
+   "diff": 487.39801598686404,
+   "ci_lo": 465.18666052666845,
+   "ci_hi": 509.1834867765077,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 100,
+   "rrb": 1.0
+  },
+  "weak|residual|max-exp-cap-V|installed_final_mw": {
+   "diff": -0.06285909466070377,
+   "ci_lo": -0.07130516781026604,
+   "ci_hi": -0.05402639296297736,
+   "wilcoxon_p": 3.010681278678945e-16,
+   "wins": 10,
+   "rrb": -0.9413861386138613
+  },
+  "weak|residual|max-exp-cap-V|energy_programme_gwh": {
+   "diff": -0.39510630982437994,
+   "ci_lo": -0.4510573574285596,
+   "ci_hi": -0.33752443145972333,
+   "wilcoxon_p": 8.576774246556675e-16,
+   "wins": 10,
+   "rrb": -0.9267326732673268
+  },
+  "weak|residual|max-exp-cap-V|energy_final_year_mwh": {
+   "diff": -97.84966548276012,
+   "ci_lo": -110.99725274580479,
+   "ci_hi": -84.10023254713373,
+   "wilcoxon_p": 3.010681278678945e-16,
+   "wins": 10,
+   "rrb": -0.9413861386138613
+  },
+  "weak|residual|max-exp-cap-V|co2_programme_t": {
+   "diff": -225.21059659989666,
+   "ci_lo": -257.1026937342791,
+   "ci_hi": -192.38892593204235,
+   "wilcoxon_p": 8.576774246556675e-16,
+   "wins": 10,
+   "rrb": -0.9267326732673268
+  },
+  "weak|residual|max-exp-cap-V|budget_efficiency": {
+   "diff": -0.025143637866795868,
+   "ci_lo": -0.028522067126958615,
+   "ci_hi": -0.021610557187351984,
+   "wilcoxon_p": 3.010681278678945e-16,
+   "wins": 10,
+   "rrb": -0.9413861386138613
+  },
+  "weak|residual|max-exp-cap-V|energy_per_mw_offered_mwh": {
+   "diff": -158.0425239455562,
+   "ci_lo": -180.42294298946615,
+   "ci_hi": -135.00977259739028,
+   "wilcoxon_p": 8.576774246556675e-16,
+   "wins": 10,
+   "rrb": -0.9267326732673268
+  },
+  "weak|hybrid|max-exp-cap-V|installed_final_mw": {
+   "diff": -0.0795954924868751,
+   "ci_lo": -0.08901631821781072,
+   "ci_hi": -0.07008921075944499,
+   "wilcoxon_p": 4.095126545597987e-17,
+   "wins": 7,
+   "rrb": -0.9687128712871287
+  },
+  "weak|hybrid|max-exp-cap-V|energy_programme_gwh": {
+   "diff": -0.5117519075577031,
+   "ci_lo": -0.6009991118493634,
+   "ci_hi": -0.4232062022398789,
+   "wilcoxon_p": 4.690843471216412e-14,
+   "wins": 17,
+   "rrb": -0.8685148514851485
+  },
+  "weak|hybrid|max-exp-cap-V|energy_final_year_mwh": {
+   "diff": -123.90239401022063,
+   "ci_lo": -138.56733074402487,
+   "ci_hi": -109.10443212364235,
+   "wilcoxon_p": 4.095126545597987e-17,
+   "wins": 7,
+   "rrb": -0.9687128712871287
+  },
+  "weak|hybrid|max-exp-cap-V|co2_programme_t": {
+   "diff": -291.69858730789053,
+   "ci_lo": -342.569493754137,
+   "ci_hi": -241.22753527673098,
+   "wilcoxon_p": 4.690843471216412e-14,
+   "wins": 17,
+   "rrb": -0.8685148514851485
+  },
+  "weak|hybrid|max-exp-cap-V|budget_efficiency": {
+   "diff": -0.03183819699793387,
+   "ci_lo": -0.03560652729068495,
+   "ci_hi": -0.028035684306581564,
+   "wilcoxon_p": 4.095126545597987e-17,
+   "wins": 7,
+   "rrb": -0.9687128712871287
+  },
+  "weak|hybrid|max-exp-cap-V|energy_per_mw_offered_mwh": {
+   "diff": -204.70076304355132,
+   "ci_lo": -240.39964476378526,
+   "ci_hi": -169.2824809128798,
+   "wilcoxon_p": 4.690843471216412e-14,
+   "wins": 17,
+   "rrb": -0.8685148514851485
+  },
+  "weak|ppo|max-exp-cap-V|installed_final_mw": {
+   "diff": -0.08673064402624946,
+   "ci_lo": -0.09519691085653696,
+   "ci_hi": -0.07822935395564017,
+   "wilcoxon_p": 9.318997235593406e-18,
+   "wins": 5,
+   "rrb": -0.9885148514851485
+  },
+  "weak|ppo|max-exp-cap-V|energy_programme_gwh": {
+   "diff": -0.7484349829461536,
+   "ci_lo": -0.8323415260061873,
+   "ci_hi": -0.6636676406916143,
+   "wilcoxon_p": 1.1485179010089616e-17,
+   "wins": 4,
+   "rrb": -0.9857425742574257
+  },
+  "weak|ppo|max-exp-cap-V|energy_final_year_mwh": {
+   "diff": -135.0093339854959,
+   "ci_lo": -148.1883557595608,
+   "ci_hi": -121.77579325330565,
+   "wilcoxon_p": 9.318997235593406e-18,
+   "wins": 5,
+   "rrb": -0.9885148514851485
+  },
+  "weak|ppo|max-exp-cap-V|co2_programme_t": {
+   "diff": -426.60794027930734,
+   "ci_lo": -474.4346698235267,
+   "ci_hi": -378.29055519422,
+   "wilcoxon_p": 1.1485179010089616e-17,
+   "wins": 4,
+   "rrb": -0.9857425742574257
+  },
+  "weak|ppo|max-exp-cap-V|budget_efficiency": {
+   "diff": -0.03404929401200188,
+   "ci_lo": -0.03743939583450452,
+   "ci_hi": -0.030645839608573262,
+   "wilcoxon_p": 1.0192962404545369e-17,
+   "wins": 5,
+   "rrb": -0.9873267326732673
+  },
+  "weak|ppo|max-exp-cap-V|energy_per_mw_offered_mwh": {
+   "diff": -293.4715690186905,
+   "ci_lo": -327.0356190976733,
+   "ci_hi": -259.51969716002543,
+   "wilcoxon_p": 1.4146791640488978e-17,
+   "wins": 4,
+   "rrb": -0.982970297029703
+  },
+  "weak|max-exp-cap-V|max-exp-cap|installed_final_mw": {
+   "diff": -0.025046978031184795,
+   "ci_lo": -0.03286534345570067,
+   "ci_hi": -0.01706903649077665,
+   "wilcoxon_p": 7.551041748728437e-08,
+   "wins": 28,
+   "rrb": -0.6194059405940594
+  },
+  "weak|max-exp-cap-V|max-exp-cap|energy_programme_gwh": {
+   "diff": -0.20184505325901023,
+   "ci_lo": -0.2790864156061415,
+   "ci_hi": -0.12231397361422756,
+   "wilcoxon_p": 1.5076693657085663e-06,
+   "wins": 31,
+   "rrb": -0.5540594059405941
+  },
+  "weak|max-exp-cap-V|max-exp-cap|energy_final_year_mwh": {
+   "diff": -38.98940057814117,
+   "ci_lo": -51.15986605398438,
+   "ci_hi": -26.570530799891475,
+   "wilcoxon_p": 7.551041748728437e-08,
+   "wins": 28,
+   "rrb": -0.6194059405940594
+  },
+  "weak|max-exp-cap-V|max-exp-cap|co2_programme_t": {
+   "diff": -115.05168035763582,
+   "ci_lo": -159.0792568955007,
+   "ci_hi": -69.71896496010973,
+   "wilcoxon_p": 1.5076693657085663e-06,
+   "wins": 31,
+   "rrb": -0.5540594059405941
+  },
+  "weak|max-exp-cap-V|max-exp-cap|budget_efficiency": {
+   "diff": -0.010018791213475797,
+   "ci_lo": -0.013146137383594892,
+   "ci_hi": -0.006827614596993423,
+   "wilcoxon_p": 7.551041748728437e-08,
+   "wins": 28,
+   "rrb": -0.6194059405940594
+  },
+  "weak|max-exp-cap-V|max-exp-cap|energy_per_mw_offered_mwh": {
+   "diff": -80.738021311678,
+   "ci_lo": -111.63456625362032,
+   "ci_hi": -48.92558945058368,
+   "wilcoxon_p": 1.5076693657085663e-06,
+   "wins": 31,
+   "rrb": -0.5540594059405941
+  },
+  "weak|rolling-lp-V|max-exp-cap-V|installed_final_mw": {
+   "diff": -0.1600507064294927,
+   "ci_lo": -0.17160211719473625,
+   "ci_hi": -0.14834545983974315,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 0,
+   "rrb": -1.0
+  },
+  "weak|rolling-lp-V|max-exp-cap-V|energy_programme_gwh": {
+   "diff": -1.0697453358095248,
+   "ci_lo": -1.1690815535479748,
+   "ci_hi": -0.9715915773499505,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 0,
+   "rrb": -1.0
+  },
+  "weak|rolling-lp-V|max-exp-cap-V|energy_final_year_mwh": {
+   "diff": -249.14307418741254,
+   "ci_lo": -267.124588005486,
+   "ci_hi": -230.92209169661265,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 0,
+   "rrb": -1.0
+  },
+  "weak|rolling-lp-V|max-exp-cap-V|co2_programme_t": {
+   "diff": -609.754841411429,
+   "ci_lo": -666.3764855223457,
+   "ci_hi": -553.8071990894716,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 0,
+   "rrb": -1.0
+  },
+  "weak|rolling-lp-V|max-exp-cap-V|budget_efficiency": {
+   "diff": -0.06402028210416452,
+   "ci_lo": -0.06864084641085287,
+   "ci_hi": -0.05933818346631922,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 0,
+   "rrb": -1.0
+  },
+  "weak|rolling-lp-V|max-exp-cap-V|energy_per_mw_offered_mwh": {
+   "diff": -427.89812988822996,
+   "ci_lo": -467.63261699217077,
+   "ci_hi": -388.63662645819795,
+   "wilcoxon_p": 3.896559845095909e-18,
+   "wins": 0,
+   "rrb": -1.0
+  },
+  "weak|residual|ppo|installed_final_mw": {
+   "diff": 0.02387154936554568,
+   "ci_lo": 0.01724195077281319,
+   "ci_hi": 0.03056624243354455,
+   "wilcoxon_p": 1.0407851434822438e-09,
+   "wins": 79,
+   "rrb": 0.7029702970297029
+  },
+  "weak|residual|ppo|energy_programme_gwh": {
+   "diff": 0.35332867312177363,
+   "ci_lo": 0.2820849823107675,
+   "ci_hi": 0.425003819328309,
+   "wilcoxon_p": 1.6409015596347118e-13,
+   "wins": 81,
+   "rrb": 0.8495049504950495
+  },
+  "weak|residual|ppo|energy_final_year_mwh": {
+   "diff": 37.15966850273576,
+   "ci_lo": 26.839697970462268,
+   "ci_hi": 47.580968407695394,
+   "wilcoxon_p": 1.0407851434822438e-09,
+   "wins": 79,
+   "rrb": 0.7029702970297029
+  },
+  "weak|residual|ppo|co2_programme_t": {
+   "diff": 201.39734367941077,
+   "ci_lo": 160.78843991713734,
+   "ci_hi": 242.25217701713584,
+   "wilcoxon_p": 1.6409015596347118e-13,
+   "wins": 81,
+   "rrb": 0.8495049504950495
+  },
+  "weak|residual|ppo|budget_efficiency": {
+   "diff": 0.008905656145206008,
+   "ci_lo": 0.006254020295711163,
+   "ci_hi": 0.011583052628090989,
+   "wilcoxon_p": 9.743997296518106e-09,
+   "wins": 74,
+   "rrb": 0.6605940594059406
+  },
+  "weak|residual|ppo|energy_per_mw_offered_mwh": {
+   "diff": 135.4290450731343,
+   "ci_lo": 106.92602506896324,
+   "ci_hi": 164.13401624843922,
+   "wilcoxon_p": 6.66687486184253e-13,
+   "wins": 81,
+   "rrb": 0.8277227722772277
+  }
+ }
+}

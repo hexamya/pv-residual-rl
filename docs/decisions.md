@@ -480,3 +480,20 @@ potential, 70% load, clearest hour: 1.036 pu.
 Lookahead sensitivity (20 / 80 futures, finer grid): see
 results/lookahead_summary.json. Gap closed between the unweighted rule and the
 wait-and-see return: voltage-weighted rule 12%, lookahead 14%, residual 17%.
+
+## D32 — Energy, emission and budget-efficiency accounting
+The reward measures summer peak and voltage relief only. scripts/37_energy_emissions.py
+replays every test episode of the main policies with identical draws (final installed
+capacities match the stored results exactly) and records the installed capacity after
+each annual allocation. PV energy = installed capacity of each year times the mean annual
+yield of the PVGIS record (1,557 kWh/kWp, SD 33, 2005-2023); avoided CO2 with the IFI
+default combined-margin factor for Iran, intermittent renewables (0.57 t/MWh, IFI
+Dataset of Default Grid Factors v2.0, 2019). No reverse power flow occurs in any
+simulated summer hour, so the PV output is taken as absorbed by the feeder load.
+
+Stiff feeder: the rule delivers 13.71 GWh and avoids 7,816 t CO2 over ten years,
++0.71 GWh [0.67, 0.75] more than PPO (100/100 scenarios) and +2.45 GWh more than the
+rolling LP, which offers only 1.62 of the 2.5 MW budget. Weak feeder: voltage weighting
+gives up 0.20 GWh [0.12, 0.28] for +408 undervoltage bus-hours per summer; the residual
+agent a further 0.40 GWh [0.34, 0.45] for +118 (about 2,000 against 300 bus-hours per GWh
+given up); the residual agent delivers 0.35 GWh more than plain PPO.
